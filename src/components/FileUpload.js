@@ -15,7 +15,10 @@ const UploadFiles = () => {
   }, []);
 
   const selectFile = (event) => {
-    setSelectedFiles(event.target.files);
+    // real application uses "event.target.files"
+    // Cypress tests set "event.nativeEvent.testFiles"
+    // in both cases, the files are File[]
+    setSelectedFiles(event.target.files || event.nativeEvent.testFiles);
   };
 
   const upload = () => {

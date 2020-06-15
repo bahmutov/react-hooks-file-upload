@@ -32,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "4.8.0",
+    "cypress-react-unit-test": "4.7.0"
   }
 }

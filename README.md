@@ -1,37 +1,18 @@
 ## React Hooks File Upload example with Axios & Boostrap
 
-For more detail, please visit:
+Shows how to upload a File by setting it in the React component during Cypress component test via [cypress-react-unit-test](https://github.com/bahmutov/cypress-react-unit-test).
 
-> [React Hooks File Upload with Axios & Boostrap Progress Bar](https://bezkoder.com/react-hooks-file-upload/)
+See [src/components/FileUpload.spec.js](src/components/FileUpload.spec.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Passing file upload test](images/upload.png)
 
-### Set port
-.env
-```
-PORT=8081
-```
-
-## Project setup
-
-In the project directory, you can run:
+To run:
 
 ```
-npm install
-# or
-yarn install
+yarn
+yarn cypress open
 ```
 
-or
+See also [File Upload in React](https://github.com/cypress-io/cypress-example-recipes#unit-testing) recipe.
 
-### Compiles and hot-reloads for development
-
-```
-npm start
-# or
-yarn start
-```
-
-Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
-
-The page will reload if you make edits.
+Cloned from [bezkoder/react-hooks-file-upload](https://github.com/bezkoder/react-hooks-file-upload) described in [React Hooks File Upload example with Axios & Progress Bar](https://bezkoder.com/react-hooks-file-upload/).
